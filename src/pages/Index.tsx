@@ -30,14 +30,14 @@ const Index = () => {
   const [selectedGenre, setSelectedGenre] = useState<string>('Все');
 
   const [movies, setMovies] = useState<Movie[]>([
-    { id: 1, title: 'Межзвёздный', year: 2014, rating: 8.6, genre: 'Фантастика', imageUrl: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400', isFavorite: false },
-    { id: 2, title: 'Начало', year: 2010, rating: 8.8, genre: 'Триллер', imageUrl: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400', isFavorite: true },
-    { id: 3, title: 'Матрица', year: 1999, rating: 8.7, genre: 'Фантастика', imageUrl: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=400', isFavorite: false },
-    { id: 4, title: 'Побег из Шоушенка', year: 1994, rating: 9.3, genre: 'Драма', imageUrl: 'https://images.unsplash.com/photo-1594908900066-3f47337549d8?w=400', isFavorite: true },
-    { id: 5, title: 'Тёмный рыцарь', year: 2008, rating: 9.0, genre: 'Боевик', imageUrl: 'https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=400', isFavorite: false },
-    { id: 6, title: 'Форрест Гамп', year: 1994, rating: 8.8, genre: 'Драма', imageUrl: 'https://images.unsplash.com/photo-1574267432644-f410f8ec4f82?w=400', isFavorite: false },
-    { id: 7, title: 'Властелин колец', year: 2001, rating: 8.8, genre: 'Фэнтези', imageUrl: 'https://images.unsplash.com/photo-1618945524163-32451704a2ea?w=400', isFavorite: true },
-    { id: 8, title: 'Криминальное чтиво', year: 1994, rating: 8.9, genre: 'Криминал', imageUrl: 'https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400', isFavorite: false },
+    { id: 1, title: 'Межзвёздный', year: 2014, rating: 8.6, genre: 'Фантастика', imageUrl: 'https://cdn.poehali.dev/projects/352a6aa1-4297-40b3-bb1b-f709c33fe8cd/files/227bd189-7c81-43c1-9fff-f6953212ee9d.jpg', isFavorite: false },
+    { id: 2, title: 'Начало', year: 2010, rating: 8.8, genre: 'Триллер', imageUrl: 'https://cdn.poehali.dev/projects/352a6aa1-4297-40b3-bb1b-f709c33fe8cd/files/e45324a6-829d-4a40-bffc-1d38558d07a4.jpg', isFavorite: true },
+    { id: 3, title: 'Матрица', year: 1999, rating: 8.7, genre: 'Фантастика', imageUrl: 'https://cdn.poehali.dev/projects/352a6aa1-4297-40b3-bb1b-f709c33fe8cd/files/d4519409-1070-4079-ac56-05b647b02b0b.jpg', isFavorite: false },
+    { id: 4, title: 'Побег из Шоушенка', year: 1994, rating: 9.3, genre: 'Драма', imageUrl: 'https://cdn.poehali.dev/projects/352a6aa1-4297-40b3-bb1b-f709c33fe8cd/files/3baca931-7514-4980-be13-bd967f8e853b.jpg', isFavorite: true },
+    { id: 5, title: 'Тёмный рыцарь', year: 2008, rating: 9.0, genre: 'Боевик', imageUrl: 'https://cdn.poehali.dev/projects/352a6aa1-4297-40b3-bb1b-f709c33fe8cd/files/34bda7e5-c15a-473b-bb4c-eb21e5ca32fd.jpg', isFavorite: false },
+    { id: 6, title: 'Форрест Гамп', year: 1994, rating: 8.8, genre: 'Драма', imageUrl: 'https://cdn.poehali.dev/projects/352a6aa1-4297-40b3-bb1b-f709c33fe8cd/files/5034eb86-ccd7-411a-9d72-00be7c3d6a2c.jpg', isFavorite: false },
+    { id: 7, title: 'Властелин колец', year: 2001, rating: 8.8, genre: 'Фэнтези', imageUrl: 'https://cdn.poehali.dev/projects/352a6aa1-4297-40b3-bb1b-f709c33fe8cd/files/cdc56e6b-efe2-4b76-be6b-2ee7f9eec482.jpg', isFavorite: true },
+    { id: 8, title: 'Криминальное чтиво', year: 1994, rating: 8.9, genre: 'Криминал', imageUrl: 'https://cdn.poehali.dev/projects/352a6aa1-4297-40b3-bb1b-f709c33fe8cd/files/d9b0b121-8553-4d8d-9616-ed58e4243e4f.jpg', isFavorite: false },
   ]);
 
   const genres = ['Все', 'Фантастика', 'Драма', 'Боевик', 'Триллер', 'Криминал', 'Фэнтези'];
